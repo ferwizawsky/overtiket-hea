@@ -15,11 +15,23 @@
                     <rect width="33" height="5" rx="2" fill="#0AC9C9"/>
                     </svg> 
                 </button>
+                
+
+
                 <button class="mx-2  font-medium" v-on:click="menu=2">REGISTER
                     <svg class="w-4 " :class="{ hidden:menu!=2,'animate-left-1':menu==2}" width="33" height="5" viewBox="0 0 33 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="33" height="5" rx="2" fill="#0AC9C9"/>
                                         </svg> 
                 </button>
+
+
+                <button class="mx-2  font-medium" v-on:click="menu=3">ABOUT
+                    <svg class="w-4 " :class="{ hidden:menu!=3,'animate-left-1':menu==3}" width="33" height="5" viewBox="0 0 33 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="33" height="5" rx="2" fill="#0AC9C9"/>
+                                        </svg> 
+                </button>
+
+
             </div> 
 
 
