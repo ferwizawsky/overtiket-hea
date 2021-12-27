@@ -1,5 +1,9 @@
 module.exports = { 
-  content: ["./src/**/*.{html,js}"],
+  purge: ["./src/components/*.vue"],
+  content: ["./src/**/*.vue"], 
+    safelist: [
+      'hidden', 
+    ],
   theme: {  
    
     extend: {
